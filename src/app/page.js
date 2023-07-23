@@ -12,6 +12,7 @@ export default function Home() {
       <button onClick={() => router.push("/helloworld")}>Hello world</button>
       <button onClick={() => router.push("/posts")}>Posts</button>
       <Link href="/profile">Profiles</Link>
+      <Link href="/parallel-route1">Parallel route 1</Link>
     </main>
   );
 }
