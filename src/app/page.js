@@ -11,6 +11,7 @@ export default function Home() {
       <Link href="/about">About us</Link>
       <button onClick={() => router.push("/helloworld")}>Hello world</button>
       <button onClick={() => router.push("/posts")}>Posts</button>
+      <Link href="/profile">Profiles</Link>
     </main>
   );
 }
