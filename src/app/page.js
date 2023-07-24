@@ -14,6 +14,7 @@ export default function Home() {
       <Link href="/profile">Profiles</Link>
       <Link href="/parallel-route1">Parallel route 1</Link>
       <Link href="/route-handler">route handler</Link>
+      <Link href="/path1">path 1</Link>
     </main>
   );
 }
